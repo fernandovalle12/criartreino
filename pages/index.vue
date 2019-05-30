@@ -8,15 +8,20 @@
           prepend-inner-icon="search"
           append-icon="short_text"
           height="3px"
+          style="outline-color:white"
         />
       </v-flex>
       <v-flex xs12 style="margin-top:-20px">
-        <v-layout wrap>
-          <v-flex xs7 style="margin-right:5px; margin-start:8px">
+        <v-layout wrap justify-center>
+          <v-flex xs7 style="margin-right:5px">
             <v-flex xs12>
               <v-card>
                 <v-card-title class="caption primary--text">
                   Supino Reto Inclinado
+                  <v-spacer />
+                  <v-btn icon outline small>
+                    <v-icon>add</v-icon>
+                  </v-btn>
                 </v-card-title>
               </v-card>
             </v-flex>
@@ -24,6 +29,10 @@
               <v-card>
                 <v-card-title class="caption primary--text">
                   Supino Reto Inclinado
+                  <v-spacer />
+                  <v-btn icon outline small>
+                    <v-icon>add</v-icon>
+                  </v-btn>
                 </v-card-title>
               </v-card>
             </v-flex>
@@ -31,6 +40,10 @@
               <v-card>
                 <v-card-title class="caption primary--text">
                   Supino Reto Inclinado
+                  <v-spacer />
+                  <v-btn icon outline small>
+                    <v-icon>add</v-icon>
+                  </v-btn>
                 </v-card-title>
               </v-card>
             </v-flex>
@@ -38,6 +51,10 @@
               <v-card>
                 <v-card-title class="caption primary--text">
                   Supino Reto Inclinado
+                  <v-spacer />
+                  <v-btn icon outline small>
+                    <v-icon>add</v-icon>
+                  </v-btn>
                 </v-card-title>
               </v-card>
             </v-flex>
@@ -45,13 +62,17 @@
               <v-card>
                 <v-card-title class="caption primary--text">
                   Supino Reto Inclinado
+                  <v-spacer />
+                  <v-btn icon outline small>
+                    <v-icon>add</v-icon>
+                  </v-btn>
                 </v-card-title>
               </v-card>
             </v-flex>
           </v-flex>
           <v-flex d-flex xs4>
             <v-layout wrap>
-              <v-flex xs12 d-flex style="height:50%" class="text-xs-center">
+              <v-flex xs12 d-flex style="height:30%" class="text-xs-center">
                 <v-card>
                   <v-card-title
                     class="display-1 text-xs-center primary--text justify-center"
