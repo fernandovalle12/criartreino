@@ -51,11 +51,11 @@
           </v-flex>
           <v-flex d-flex xs4>
             <v-layout wrap>
-              <v-flex xs12 d-flex style="height:50%">
+              <v-flex xs12 d-flex style="height:50%" class="text-xs-center">
                 <v-card>
                   <v-card-title
-                    class="display-1 text-md-center primary--text"
-                    style="padding-left:37%"
+                    class="display-1 text-xs-center primary--text justify-center"
+                    style="padding-bottom:0px;"
                   >
                     A
                   </v-card-title>
@@ -67,8 +67,7 @@
               <v-flex xs12 d-flex style="height:30%; padding-top:5px">
                 <v-card>
                   <v-card-title
-                    class="display-1 text-md-center primary--text"
-                    style="padding-left:37%"
+                    class="display-1 text-md-center primary--text justify-center"
                   >
                     B
                   </v-card-title>
@@ -77,8 +76,7 @@
               <v-flex xs12 d-flex style="height:30%; padding-top:5px">
                 <v-card>
                   <v-card-title
-                    class="display-1 text-md-center primary--text"
-                    style="padding-left:37%"
+                    class="display-1 text-md-center primary--text justify-center"
                   >
                     C
                   </v-card-title>
